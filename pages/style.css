@@ -1,0 +1,135 @@
+.frame-1 .rectangle-4 {
+  background: url('../assets/images/rectangle_15.jpeg') 50% / cover no-repeat;
+  width: 123px;
+  height: 113px;
+}
+.frame-1 .container-1 {
+  background: url('../assets/images/rectangle_5.jpeg') 50% / cover no-repeat;
+  position: relative;
+  margin-right: 48px;
+  width: 536px;
+  height: 798px;
+  box-sizing: border-box;
+}
+.frame-1 .rectangle-13 {
+  border-radius: 20px;
+  background: #FFFFFF;
+  margin-bottom: 14.5px;
+  width: 546px;
+  height: 51px;
+}
+.frame-1 .no-tiene-usuario a{
+  margin: 0 357px 14.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+.frame-1 .rectangle-16 {
+  border-radius: 20px;
+  background: #FFFFFF;
+  margin-bottom: 15.5px;
+  width: 546px;
+  height: 51px;
+}
+.frame-1 .olvid-la-contrasea a{
+  margin: 0 321px 85.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration-line: underline;
+  color: hsl(0, 0%, 100%);
+}
+.frame-1 .ingresar {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 35px;
+  text-align: center;
+  color: #000000;
+}
+.frame-1 .container {
+  border-radius: 20px;
+  background: #FD3A3A;
+  position: relative;
+  margin-left: 16px;
+  padding: 11px 0 11px 5px;
+  width: 260px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.frame-1 .container-4 {
+  background: #355792;
+  position: relative;
+  margin: 70px 0 96px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 163px 0 141px 0;
+  width: 830px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.frame-1 .container-3 {
+  margin-right: 26px;
+  display: flex;
+  flex-direction: row;
+  width: 1414px;
+  box-sizing: border-box;
+}
+.frame-1 .rectangle-8 {
+  mix-blend-mode: luminosity;
+  border-radius: 65px;
+  background:url('../assets/images/rectangle_8.jpeg');
+  background-size: cover;
+  margin-right: 38.3px;
+  width: 112px;
+  height: 113px;
+}
+.frame-1 .universidad-autnoma-de-bucaramanga-todos-los-derechos-reservados {
+  
+  margin: 42.71px 0 36.2px 0;
+  display: inline-block;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 15.4px;
+  color: #ffffff;
+}
+.frame-1 .container-5 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.frame-1 .universidad-autnoma-de-bucaramanga-todos-los-derechos-reservados-1 {
+  position: absolute;
+  left: 240.3px;
+  bottom: 61.5px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffffff;
+}
+.frame-1 .container-2 {
+  background: #4F75A1;
+  position: relative;
+  padding: 26px 90px 27px 90px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.frame-1 {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  box-sizing: border-box;
+}
