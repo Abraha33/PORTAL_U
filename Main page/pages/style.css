@@ -22,19 +22,17 @@
   height: 147px;
 }
 .frame-1 .fecha-17-abr-24-charla-potencia-tu-hoja-de-vida-con-estrategias-innovadoras-de-ia {
-  margin: 37.5px 0;
-  overflow-wrap: break-word;
-  font-family: 'Inter';
-  font-weight: 600;
-  font-size: 15px;
-  color: #000000;
+  color: black;
+  white-space: normal;
+  overflow: hidden;
+  word-wrap: break-word;
+  display: inline-block;
+  max-width: 100%;
 }
-.fecha-17-abr-24-charla-potencia-tu-hoja-de-vida-con-estrategias-innovadoras-de-ia {
+.frame-1.text-1 {
   font-family: 'Inter';
   font-weight: 600;
   font-size: 15px;
-  text-decoration-line: underline;
-  line-height: 1.333;
 }
 .frame-1 .container-11 {
   display: flex;
@@ -42,7 +40,7 @@
   box-sizing: border-box;
 }
 .frame-1 .image-4 {
-  background: url('../assets/images/image_4.png') 50% / cover no-repeat;
+  background: url('../assets/images/image_4.PNG') 50% / cover no-repeat;
   margin-right: 29px;
   width: 207px;
   height: 147px;
@@ -59,7 +57,7 @@
   font-family: 'Inter';
   font-weight: 600;
   font-size: 15px;
-  text-decoration-line: underline;
+
   line-height: 1.333;
 }
 .frame-1 .container-14 {
@@ -86,7 +84,7 @@
   font-family: 'Inter';
   font-weight: 600;
   font-size: 15px;
-  text-decoration-line: underline;
+  
   line-height: 1.333;
 }
 .frame-1 .fecha-15-abr-24-informacin-para-presentar-la-prueba-de-homologacin-institucional-tep {
@@ -110,7 +108,7 @@
 }
 .frame-1 .fecha-01-abr-24-pruebas-de-homologacin-tep-itep-ii-ytep-iii {
   margin: 29px 0 64px 0;
-  overflow-wrap: break-word;
+  overflow-wrap: break;
   font-family: 'Inter';
   font-weight: 600;
   font-size: 15px;
@@ -120,7 +118,7 @@
   font-family: 'Inter';
   font-weight: 600;
   font-size: 15px;
-  text-decoration-line: underline;
+ 
   line-height: 1.333;
 }
 .frame-1 .container-1 {
@@ -155,7 +153,7 @@
   font-family: 'Inter';
   font-weight: 600;
   font-size: 15px;
-  text-decoration-line: underline;
+ 
   line-height: 1.333;
 }
 .frame-1 .container-12 {
@@ -181,7 +179,7 @@
   font-family: 'Inter';
   font-weight: 600;
   font-size: 15px;
-  text-decoration-line: underline;
+
   line-height: 1.333;
 }
 .frame-1 .container-4 {
@@ -216,7 +214,7 @@
   font-family: 'Inter';
   font-weight: 600;
   font-size: 15px;
-  text-decoration-line: underline;
+  
   line-height: 1.333;
 }
 .frame-1 .container-18 {
@@ -244,7 +242,7 @@
   font-family: 'Inter';
   font-weight: 600;
   font-size: 15px;
-  color: #000000;
+  color: #ffff;
 }
 .frame-1 .container-15 {
   margin: 6.5px 0;
@@ -256,93 +254,93 @@
   font-family: 'Inter';
   font-weight: 600;
   font-size: 15px;
-  text-decoration-line: underline;
+  
   line-height: 1.333;
 }
 .nuestros-medios-unab-tv-peridico-15-soy-autnomo-tv-unab-radio-sub4 {
   font-family: 'Inter';
   font-weight: 600;
   font-size: 15px;
-  text-decoration-line: underline;
+  
   line-height: 1.333;
 }
 .nuestros-medios-unab-tv-peridico-15-soy-autnomo-tv-unab-radio-sub6 {
   font-family: 'Inter';
   font-weight: 600;
   font-size: 15px;
-  text-decoration-line: underline;
+ 
   line-height: 1.333;
 }
 .nuestros-medios-unab-tv-peridico-15-soy-autnomo-tv-unab-radio {
   font-family: 'Inter';
   font-weight: 600;
   font-size: 15px;
-  text-decoration-line: underline;
+
   line-height: 1.333;
 }
 .frame-1 .nuestros-medios-unab-tv-peridico-15-soy-autnomo-tv-unab-radio {
-  margin: 19.5px 0 16.5px 0;
+  margin: 19.5px 0 16.5px 155px;
   overflow-wrap: break-word;
   font-family: 'Inter';
   font-weight: 600;
   font-size: 15px;
-  color: #000000;
+  color: #FFFFFF;
 }
 .sitios-unab-unab-instituto-caldas-unab-virtual-ulibro-sub2 {
   font-family: 'Inter';
   font-weight: 600;
   font-size: 15px;
-  text-decoration-line: underline;
+  
   line-height: 1.333;
 }
 .sitios-unab-unab-instituto-caldas-unab-virtual-ulibro-sub4 {
   font-family: 'Inter';
   font-weight: 600;
   font-size: 15px;
-  text-decoration-line: underline;
+  
   line-height: 1.333;
 }
 .sitios-unab-unab-instituto-caldas-unab-virtual-ulibro-sub6 {
   font-family: 'Inter';
   font-weight: 600;
-  font-size: 15px;
-  text-decoration-line: underline;
+  font-size: 14px;
+  
   line-height: 1.333;
 }
 .sitios-unab-unab-instituto-caldas-unab-virtual-ulibro {
   font-family: 'Inter';
   font-weight: 600;
   font-size: 15px;
-  text-decoration-line: underline;
+  
   line-height: 1.333;
 }
 .frame-1 .sitios-unab-unab-instituto-caldas-unab-virtual-ulibro {
-  margin: 19.5px 0 16.5px 0;
+  margin: 19.5px 0 16.5px 150px;
   overflow-wrap: break-word;
   font-family: 'Inter';
   font-weight: 600;
   font-size: 15px;
-  color: #000000;
+  color: #FFFFFF;
 }
 .redes-sociales-facebook-xinstagram-youtube-linkedin-sub6 {
   font-family: 'Inter';
   font-weight: 600;
   font-size: 15px;
-  text-decoration-line: underline;
+ 
   line-height: 1.333;
 }
 .redes-sociales-facebook-xinstagram-youtube-linkedin-sub8 {
   font-family: 'Inter';
   font-weight: 600;
   font-size: 15px;
-  text-decoration-line: underline;
+  
   line-height: 1.333;
 }
 .redes-sociales-facebook-xinstagram-youtube-linkedin {
   font-family: 'Inter';
   font-weight: 600;
   font-size: 15px;
-  text-decoration-line: underline;
+ 
   line-height: 1.333;
 }
 .frame-1 .redes-sociales-facebook-xinstagram-youtube-linkedin {
@@ -350,20 +348,20 @@
   font-family: 'Inter';
   font-weight: 600;
   font-size: 15px;
-  color: #000000;
+  color: #FFFFFF;
 }
 .redes-sociales-facebook-xinstagram-youtube-linkedin-sub2 {
   font-family: 'Inter';
   font-weight: 600;
   font-size: 15px;
-  text-decoration-line: underline;
+ 
   line-height: 1.333;
 }
 .redes-sociales-facebook-xinstagram-youtube-linkedin-sub4 {
   font-family: 'Inter';
   font-weight: 600;
   font-size: 15px;
-  text-decoration-line: underline;
+
   line-height: 1.333;
 }
 .frame-1 .container-6 {
@@ -386,7 +384,7 @@
   font-family: 'Inter';
   font-weight: 600;
   font-size: 15px;
-  color: #000000;
+  color: #FFFFFF;
 }
 .frame-1 .container-17 {
   border-radius: 40px;
@@ -406,7 +404,7 @@
   font-family: 'Inter';
   font-weight: 600;
   font-size: 15px;
-  color: #000000;
+  color: #FFFFFF;
 }
 .frame-1 .container-7 {
   border-radius: 40px;
@@ -442,8 +440,8 @@
   font-family: 'Inter';
   font-weight: 600;
   font-size: 15px;
-  text-decoration-line: underline;
-  color: #000000;
+ 
+  color: #FFFFFF;
 }
 .frame-1 .container-9 {
   border-radius: 40px;
@@ -463,7 +461,7 @@
   font-family: 'Inter';
   font-weight: 600;
   font-size: 15px;
-  color: #000000;
+  color: #FFFFFF;
 }
 .frame-1 .container-3 {
   border-radius: 40px;
