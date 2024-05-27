@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Main</title>
+    <style>
+        /* Estilos para el calendario */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .mi-contenedor {
+            margin-right: 20px; /* Ajusta el margen derecho */
+        }
+        .mi-boton {
+            background-color: #C73535;
+            color: white;
+            margin-top: 0px;
+            padding: 2px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: color 0.3s;
+            display: inline-block;
+            text-decoration: none;
+        }
+        .mi-boton:hover {
+            color: #000000;
+        }
+        .contenido {
+            display: none;
+        }
+        .rec_barra {
+            width: 100%;
+            height: 50px;
+            background-color: #355792;
+            clear: both;
+            
+        }
+        table {
+            border-collapse: collapse;
+        }
+        th {
+            padding: 10px;
+            text-align: left;
+            color: #000;
+        }
+        #changing-image {
+            width: 100%;
+            height: 750px;
+        }
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #6291e2;
+            padding: 20px;
+            width: 100%;
+            color:#fff;
+        }
+        a{
+            color:#000;
+        }
+        p1{
+            color:#fff
+        }
+        .perfil-img {
+            position: absolute;
+            top: 20px;
+            right: 0;
+            margin-right: 20px;
+            border-radius: 80px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <img src="Recursos\Logo.jpg" alt="Logo MI PORTALU" width="123" height="100">
+    <a href="#" class="mi-boton" onclick="alternarContenido('contenido1')">Servicios<br>electrónicos</a>
+    <a href="#" class="mi-boton" onclick="alternarContenido('contenido2')">Servicios de<br>estudiantes</a>
+    <a href="#" class="mi-boton" onclick="alternarContenido('contenido3')">Información<br>administrativa</a>
+    <a href="calendar.html" class="mi-boton" onclick="alternarContenido">Agenda<br>Academica</a>
+    <img src="Recursos\Perfil.jpg", alt="Perfil", class="perfil-img">
+    <br>
+    <div class="contenido" id="contenido1">
+        <table>
+            <tr>
+                <th>Biblioteca</th>
+                <td><a href="https://unab.edu.co/sistema-de-bibliotecas-unab/">Web de Biblioteca</a><br>
+                <a href="https://catalogo.unab.edu.co/cgi-bin/koha/opac-user.pl">SIBU</a><br>
+                <a href="https://unab.edu.co/sistema-de-bibliotecas-unab/recursos-digitales/">Recursos digitales</a></td>
+           
+                <th>Reserva de Espacios</th>
+                <td>Disponibilidad de Aulas <br> Espacios académicos <br> Espacios deportivos y culturales</td>
+                <th>e-Learning</th>
+                <td>
+                <a href="https://tema.unab.edu.co/login/index.php">Tema Pregrado</a><br>
+                <a href="https://temaposgrados.unab.edu.co/login/index.php">Tema Posgrado</a><br>
+                <a href="https://unabvirtual.unab.edu.co/">Canvas</a><br>
+                <a>Sistemas</a><br>
+                <a href="https://cosmos.unab.edu.co/">Cosmos</a><br>
+                <a href="https://apolo.unab.edu.co/">Sistema Apolo</a><br>
+                </td>
+                <th>Reserva de equipos</th><br>
+                <td>Jardin<br>CSU<br>Caldas<br>CPA<br>Casona</td>
+                <th>Soporte</th>
+                <td><a href="https://clic.kayako.com/">Clic</a><br>
+                <a href="https://bienestar.unab.edu.co/">Bienestar en linea</a><br>
+                <a href="https://sigturnos.unab.edu.co/Account/login.aspx">Agenda tu cita virtual de nuevo</a></td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div class="contenido" id="contenido2">
+        <table>
+            <tr>
+                <th>Inscripción de cursos</th>
+                <td>Selección de Cursos Menores Nuevo<br>Turnos<br>Inscripción de Informática Vacacionales e Intensivos<br>
+                    Proyección de Cursos<br>Informática<br>Cursos Inscritos<br>Descargar Certificado de Notas<br>Formulario Practicantes</td>
+                <th>Información del Programa</th>
+                <td>Profesores<br>Cronogramas Académicos</td>
+                <th>Trámites Académicos</th>
+                <td>Actualización de EPS<br>Registro de referidos<br>
+                    Reconocimiento de cursos<br>Solicitud de grado<br>
+                    Solicitud de Certificados<br>nscripción a elecciones </td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div class="contenido" id="contenido3">
+        <table>
+            <tr>
+                <th>Trámites Financieros</th>
+                <td>Apoyo Financiero Directo<br>Apoyo Financiero Externo<br>
+                    Cronograma fechas de pago Primer Ingreso<br>Cronograma fechas de pago Continuos<br></td>
+                <td>Solicitud Becas Fondos<br>Solicitud Becas y descuentos<br>
+                    Renovación de Créditos Icetex<br>Cupones<br>Devoluciones</td>
+                <th>Tarifas<br>Reglamentos y Resoluciones<br></th>
+                <th>Comunicacion e identidad UNAB<br>Actualización de Datos Personales</th>
+            </tr>
+        </table>
+    </div>
+    <div class="rec_barra">
+        <p1>¡Bienvenido!</p1>
+    </div>
+
+    <img id="changing-image" src="Recursos\unab.jpg" alt="Imagen Cambiante">
+
+    <script>
+        let contenidoVisible = null;
+
+        function alternarContenido(id) {
+            const elemento = document.getElementById(id);
+            if (contenidoVisible === elemento) {
+                elemento.style.display = 'none';
+                contenidoVisible = null;
+            } else {
+                if (contenidoVisible) {
+                    contenidoVisible.style.display = 'none';
+                }
+                elemento.style.display = 'block';
+                contenidoVisible = elemento;
+            }
+        }
+
+        const images = [
+            "https://unab.edu.co/wp-content/uploads/2022/01/1.Fachada-El-Bosque.jpg",
+            "https://unab.edu.co/wp-content/uploads/2022/01/10.-Plazoleta-Banu.jpg",
+            "https://unab.edu.co/wp-content/uploads/2022/02/1-Lab-Anfiteatro-1.jpg"
+        ];
+        let currentImageIndex = 0;
+
+        function changeImage() {
+            currentImageIndex = (currentImageIndex + 1) % images.length;
+            document.getElementById('changing-image').src = images[currentImageIndex];
+        }
+
+        setInterval(changeImage, 10000);
+    </script>
+    <br><br>
+    <br><br>
+    <br><br>
+<div>
+    <table cellpadding="20">
+    
+     <tr>
+        <td><img src="Recursos/news.jpg" height="100", width="120"></td>
+        <td>fecha 20-MAY-24 <br> Cursos vacacionales intersemestrales de inglés para estudiantes pregrado profesional UNAB</td>
+        <td><img src="Recursos/newb.jpg"height="100", width="120"></td>
+        <td>fecha 17-MAY-24 <br> Prepárate: se acercan los torneos deportivos para estudiantes de posgrados</td>
+    </tr>
+    <tr>
+        <td><img src="Recursos/newb.jpg" height="100", width="120"></td>
+        <td>fecha 16-MAY-24 <br> Convocatoria de exploración de interés docente</td>
+        <td><img src="Recursos/news.jpg"height="100", width="120"></td>
+        <td>fecha 16-MAY-24 <br> Actualización de EPS para estudiantes de Medicina, Enfermería y Psicología</td>
+    </tr>
+    <tr>
+        <td><img src="Recursos/news.jpg" height="100", width="120"></td>
+        <td>fecha 08-MAY-24 <br> Examen diagnóstico de inglés para estudiantes pregrado profesional</td>
+        <td><img src="Recursos/newb.jpg"height="100", width="120"></td>
+        <td>fecha 07-MAY-24 <br> Festival Oriental en el Hostal UNAB</td>
+    </tr>
+    <tr>
+        <td><img src="Recursos/newb.jpg" height="100", width="120"></td>
+        <td>fecha 07-MAY-24 <br>Universidad UNAB liderará proyecto de Vocaciones Científicas en Santander</td>
+        <td><img src="Recursos/news.jpg"height="100", width="120"></td>
+        <td>fecha 06-MAY-24 <br> Pruebas de informática para estudiantes continuos (viernes 7 de junio de 2024)</td>
+    </tr>
+    </table>
+</div>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<footer>
+<table>
+    <tr>
+        <td><img src="Recursos\U.jpg"height="80", width="80"></td>
+        <th>Universidad Autónoma de Bucaramanga<br>Avenida 42 No. 48 – 11 | PBX (7)6436111<br>Bucaramanga - Colombia<br>NIT: 890.200.499-9<br> © Todos los derechos reservados</th>
+        <th>Nuestros medios <br> Unab TV <br> Periódico 15 <br> Soy autónomo TV <br> UNAB Radio</th>
+        <th>Sitios Unab<br>Unab <br> Instituto Caldas <br> Unab Virtual <br> Ulibro </th>
+        <th>Redes sociales <br> Facebook <br> X <br> Instagram <br> Youtube <br>Linkedin</th>
+    </tr>
+</table>
+</footer>
+</body>
+</html>

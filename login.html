@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <style>
+
+        body {
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        img{
+            height: 400;
+            width: 800;
+        }
+          
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #000;
+            width: 350px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 300;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 1rem;
+            text-align: center;
+            background-color: #4F75A1;
+            border-radius: 10px;
+            display: bold;
+        }        
+        
+    </style>
+</head>
+<body>
+    <div style="background-image: url('https://www.unired.edu.co/images/instituciones/UNAB/2017/junio/unab.jpg')"></div>
+    <div style="position: absolute; top: 0; left: 0;">
+        <img src="Recursos\Logo.jpg" alt="Logo MI PORTALU" width="123" height="100">
+    </div>
+    <img src="Recursos/unab.jpg">
+
+    <form action="portal_u.html" method="post">
+        <div>
+            <label for="usuario"><b>Usuario</b></label>
+            <input type="text" placeholder="Ingresa tu usuario" name="usuario" required>
+        </div>
+
+        <div>
+            <label for="contrasena"><b>Contraseña</b></label>
+            <input type="password" placeholder="Ingresa tu contraseña" name="contrasena" required>
+        </div>
+
+        <button type="submit">Ingresar</button>
+        <h5><a href="Error.html">¿Se te olvidó la contraseña?</a></h5>
+    </form>
+    <br><br>
+    <footer
+    <a>Universidad Autónoma de Bucaramanga<br> © Todos los derechos reservados<br> </a>
+      </footer>
+</body>
+</html>
+
